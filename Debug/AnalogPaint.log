@@ -1,0 +1,4 @@
+﻿  AnalogForm.cpp
+  AnalogForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+LINK : error LNK2001: неразрешенный внешний символ _main.
+C:\Users\filfo\source\repos\AnalogPaint\Debug\AnalogPaint.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
