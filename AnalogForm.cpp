@@ -694,29 +694,91 @@ System::Void AnalogPaint::AnalogForm::MainPictureBox_Click(System::Object^ sende
     return System::Void();
 }
 
-System::Void AnalogPaint::AnalogForm::MainPictureBox_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e)
-{
-    return System::Void();
-}
+
 
 System::Void AnalogPaint::AnalogForm::MainPictureBox_SizeChanged(System::Object^ sender, System::EventArgs^ e)
 {
-    return System::Void();
+    if (MainPictureBox->Image) {
+        if (background)
+            background = gcnew Bitmap(background, MainPictureBox->Width, MainPictureBox->Height);
+        else
+            background = gcnew Bitmap(MainPictureBox->Image, MainPictureBox->Width, MainPictureBox->Height);
+    }
+    delete canvas;
+    canvas = Graphics::FromImage(background);
+    MainPictureBox->Image = background;
+    MainPictureBox->Refresh();
+    MainPictureBox->Invalidate();
+
 }
 
 System::Void AnalogPaint::AnalogForm::MainPictureBox_MouseDown(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e)
 {
-    return System::Void();
+    if (statePen == 1) {
+        //Отслеживаем нажатие кнопки мыши
+        points->Clear(); //каждый раз рисуем заново, поэтому очищаем список
+        points->Add(e->Location);
+        draw = true;
+        MainPictureBox->SizeMode = PictureBoxSizeMode::Normal;
+    }
+    else {
+        mousePosition.X = e->Location.X; //позиция мышки по x и y
+        mousePosition.Y = e->Location.Y;
+    }
+
+    MainPictureBox->Invalidate();//перерисовываем
+
 }
 
 System::Void AnalogPaint::AnalogForm::MainPictureBox_MouseMove(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e)
 {
-    return System::Void();
+    //Проверяем можно ли рисовать?
+    if (draw && points->Contains(Point(e->X, e->Y)) == false) {
+        //Проверяем нажатие левой кнопки мыши
+        if (e->Button == System::Windows::Forms::MouseButtons::Left) {
+            points->Add(e->Location);
+        }
+        MainPictureBox->Invalidate();
+    }
 }
 
 System::Void AnalogPaint::AnalogForm::MainPictureBox_MouseUp(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e)
 {
-    return System::Void();
+    draw = false;
+    MainPictureBox->Invalidate();
+
+    mousePosition.X = -1;
+    mousePosition.Y = -1;
+}
+
+System::Void AnalogPaint::AnalogForm::MainPictureBox_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e)
+{
+    switch (statePen)
+    {
+    case 1:
+        if (points->Count > 1) {
+            canvas->DrawLines(pen, points->ToArray());
+        }
+        break;
+    case 2: //квадрат
+        if (mousePosition.X != -1 && mousePosition.Y != -1) {
+            canvas->DrawRectangle(pen, mousePosition.X, mousePosition.Y, Convert::ToInt32(numericUpDownWidthSquare->Value), Convert::ToInt32(numericUpDownHightSquare->Value));
+        }
+        break;
+    case 3: //круг
+        if (mousePosition.X != -1 && mousePosition.Y != -1) {
+            canvas->DrawEllipse(pen, mousePosition.X, mousePosition.Y, Convert::ToInt32(numericUpDownWidthCircle->Value), Convert::ToInt32(numericUpDownHightCircle->Value));
+        }
+        break;
+    case 4: //текстура
+        if (mousePosition.X != -1 && mousePosition.Y != -1) {
+            canvas->DrawImage(texture, mousePosition.X, mousePosition.Y, texture->Width, texture->Height);
+        }
+        break;
+    }
+
+
+
 }
 
 System::Void AnalogPaint::AnalogForm::AnalogForm_Load(System::Object^ sender, System::EventArgs^ e)
