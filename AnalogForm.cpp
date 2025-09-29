@@ -57,16 +57,15 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->groupBoxSettingsSquare = (gcnew System::Windows::Forms::GroupBox());
     this->numericUpDownHightSquare = (gcnew System::Windows::Forms::NumericUpDown());
     this->numericUpDownWidthSquare = (gcnew System::Windows::Forms::NumericUpDown());
-    this->buttonApplySquare = (gcnew System::Windows::Forms::Button());
     this->SquareHightLabel = (gcnew System::Windows::Forms::Label());
     this->SquareWidthLabel = (gcnew System::Windows::Forms::Label());
     this->groupBoxSettingsCircle = (gcnew System::Windows::Forms::GroupBox());
     this->numericUpDownHightCircle = (gcnew System::Windows::Forms::NumericUpDown());
     this->numericUpDownWidthCircle = (gcnew System::Windows::Forms::NumericUpDown());
-    this->buttonApplyCircle = (gcnew System::Windows::Forms::Button());
     this->CircleHightLabel = (gcnew System::Windows::Forms::Label());
     this->CircleWidthLabel = (gcnew System::Windows::Forms::Label());
-    this->groupBoxÒåêñòóðû = (gcnew System::Windows::Forms::GroupBox());
+    this->groupBoxSettingsTexture = (gcnew System::Windows::Forms::GroupBox());
+    this->buttonChooseTexture = (gcnew System::Windows::Forms::Button());
     this->numericUpDownHeightTexture = (gcnew System::Windows::Forms::NumericUpDown());
     this->numericUpDownWidthTexture = (gcnew System::Windows::Forms::NumericUpDown());
     this->buttonApplyTexture = (gcnew System::Windows::Forms::Button());
@@ -78,6 +77,11 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->numericUpDownProjectWidth = (gcnew System::Windows::Forms::NumericUpDown());
     this->numericUpDownProjectHight = (gcnew System::Windows::Forms::NumericUpDown());
     this->groupBoxCreateProject = (gcnew System::Windows::Forms::GroupBox());
+    this->label3 = (gcnew System::Windows::Forms::Label());
+    this->label2 = (gcnew System::Windows::Forms::Label());
+    this->label1 = (gcnew System::Windows::Forms::Label());
+    this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
+    this->radioButton1 = (gcnew System::Windows::Forms::RadioButton());
     this->buttonOpenProject = (gcnew System::Windows::Forms::Button());
     this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
     this->colorDialog1 = (gcnew System::Windows::Forms::ColorDialog());
@@ -92,7 +96,7 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->groupBoxSettingsCircle->SuspendLayout();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownHightCircle))->BeginInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownWidthCircle))->BeginInit();
-    this->groupBoxÒåêñòóðû->SuspendLayout();
+    this->groupBoxSettingsTexture->SuspendLayout();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownHeightTexture))->BeginInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownWidthTexture))->BeginInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownProjectWidth))->BeginInit();
@@ -102,51 +106,51 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     // 
     // menuStrip1
     // 
-    resources->ApplyResources(this->menuStrip1, L"menuStrip1");
     this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
         this->ActivityToolStripMenuItem,
             this->AboutToolStripMenuItem, this->ExitToolStripMenuItem
     });
+    resources->ApplyResources(this->menuStrip1, L"menuStrip1");
     this->menuStrip1->Name = L"menuStrip1";
     // 
     // ActivityToolStripMenuItem
     // 
-    resources->ApplyResources(this->ActivityToolStripMenuItem, L"ActivityToolStripMenuItem");
     this->ActivityToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
         this->CreateToolStripMenuItem,
             this->CreateAsToolStripMenuItem, this->ToolBoxToolStripMenuItem
     });
     this->ActivityToolStripMenuItem->Name = L"ActivityToolStripMenuItem";
+    resources->ApplyResources(this->ActivityToolStripMenuItem, L"ActivityToolStripMenuItem");
     this->ActivityToolStripMenuItem->Click += gcnew System::EventHandler(this, &AnalogForm::ActivityToolStripMenuItem_Click);
     // 
     // CreateToolStripMenuItem
     // 
-    resources->ApplyResources(this->CreateToolStripMenuItem, L"CreateToolStripMenuItem");
     this->CreateToolStripMenuItem->Name = L"CreateToolStripMenuItem";
+    resources->ApplyResources(this->CreateToolStripMenuItem, L"CreateToolStripMenuItem");
     this->CreateToolStripMenuItem->Click += gcnew System::EventHandler(this, &AnalogForm::CreateToolStripMenuItem_Click);
     // 
     // CreateAsToolStripMenuItem
     // 
-    resources->ApplyResources(this->CreateAsToolStripMenuItem, L"CreateAsToolStripMenuItem");
     this->CreateAsToolStripMenuItem->Name = L"CreateAsToolStripMenuItem";
+    resources->ApplyResources(this->CreateAsToolStripMenuItem, L"CreateAsToolStripMenuItem");
     this->CreateAsToolStripMenuItem->Click += gcnew System::EventHandler(this, &AnalogForm::CreateAsToolStripMenuItem_Click);
     // 
     // ToolBoxToolStripMenuItem
     // 
-    resources->ApplyResources(this->ToolBoxToolStripMenuItem, L"ToolBoxToolStripMenuItem");
     this->ToolBoxToolStripMenuItem->Name = L"ToolBoxToolStripMenuItem";
+    resources->ApplyResources(this->ToolBoxToolStripMenuItem, L"ToolBoxToolStripMenuItem");
     this->ToolBoxToolStripMenuItem->Click += gcnew System::EventHandler(this, &AnalogForm::ToolBoxToolStripMenuItem_Click);
     // 
     // AboutToolStripMenuItem
     // 
-    resources->ApplyResources(this->AboutToolStripMenuItem, L"AboutToolStripMenuItem");
     this->AboutToolStripMenuItem->Name = L"AboutToolStripMenuItem";
+    resources->ApplyResources(this->AboutToolStripMenuItem, L"AboutToolStripMenuItem");
     this->AboutToolStripMenuItem->Click += gcnew System::EventHandler(this, &AnalogForm::AboutToolStripMenuItem_Click);
     // 
     // ExitToolStripMenuItem
     // 
-    resources->ApplyResources(this->ExitToolStripMenuItem, L"ExitToolStripMenuItem");
     this->ExitToolStripMenuItem->Name = L"ExitToolStripMenuItem";
+    resources->ApplyResources(this->ExitToolStripMenuItem, L"ExitToolStripMenuItem");
     this->ExitToolStripMenuItem->Click += gcnew System::EventHandler(this, &AnalogForm::ExitToolStripMenuItem_Click);
     // 
     // MainPictureBox
@@ -163,7 +167,6 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     // 
     // ToolBox
     // 
-    resources->ApplyResources(this->ToolBox, L"ToolBox");
     this->ToolBox->Controls->Add(this->numericUpDownSize);
     this->ToolBox->Controls->Add(this->buttonActivateTexture);
     this->ToolBox->Controls->Add(this->buttonActivateCircle);
@@ -174,6 +177,7 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->ToolBox->Controls->Add(this->buttonColor);
     this->ToolBox->Controls->Add(this->FigureLabel);
     this->ToolBox->Controls->Add(this->ParametrsLabel);
+    resources->ApplyResources(this->ToolBox, L"ToolBox");
     this->ToolBox->Name = L"ToolBox";
     this->ToolBox->TabStop = false;
     // 
@@ -248,12 +252,11 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     // 
     // groupBoxSettingsSquare
     // 
-    resources->ApplyResources(this->groupBoxSettingsSquare, L"groupBoxSettingsSquare");
     this->groupBoxSettingsSquare->Controls->Add(this->numericUpDownHightSquare);
     this->groupBoxSettingsSquare->Controls->Add(this->numericUpDownWidthSquare);
-    this->groupBoxSettingsSquare->Controls->Add(this->buttonApplySquare);
     this->groupBoxSettingsSquare->Controls->Add(this->SquareHightLabel);
     this->groupBoxSettingsSquare->Controls->Add(this->SquareWidthLabel);
+    resources->ApplyResources(this->groupBoxSettingsSquare, L"groupBoxSettingsSquare");
     this->groupBoxSettingsSquare->Name = L"groupBoxSettingsSquare";
     this->groupBoxSettingsSquare->TabStop = false;
     this->groupBoxSettingsSquare->Enter += gcnew System::EventHandler(this, &AnalogForm::groupBoxSettingsSquare_Enter);
@@ -274,13 +277,6 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->numericUpDownWidthSquare->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1, 0, 0, 0 });
     this->numericUpDownWidthSquare->ValueChanged += gcnew System::EventHandler(this, &AnalogForm::numericUpDownWidthSquare_ValueChanged);
     // 
-    // buttonApplySquare
-    // 
-    resources->ApplyResources(this->buttonApplySquare, L"buttonApplySquare");
-    this->buttonApplySquare->Name = L"buttonApplySquare";
-    this->buttonApplySquare->UseVisualStyleBackColor = true;
-    this->buttonApplySquare->Click += gcnew System::EventHandler(this, &AnalogForm::buttonApplySquare_Click);
-    // 
     // SquareHightLabel
     // 
     resources->ApplyResources(this->SquareHightLabel, L"SquareHightLabel");
@@ -295,12 +291,11 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     // 
     // groupBoxSettingsCircle
     // 
-    resources->ApplyResources(this->groupBoxSettingsCircle, L"groupBoxSettingsCircle");
     this->groupBoxSettingsCircle->Controls->Add(this->numericUpDownHightCircle);
     this->groupBoxSettingsCircle->Controls->Add(this->numericUpDownWidthCircle);
-    this->groupBoxSettingsCircle->Controls->Add(this->buttonApplyCircle);
     this->groupBoxSettingsCircle->Controls->Add(this->CircleHightLabel);
     this->groupBoxSettingsCircle->Controls->Add(this->CircleWidthLabel);
+    resources->ApplyResources(this->groupBoxSettingsCircle, L"groupBoxSettingsCircle");
     this->groupBoxSettingsCircle->Name = L"groupBoxSettingsCircle";
     this->groupBoxSettingsCircle->TabStop = false;
     this->groupBoxSettingsCircle->Enter += gcnew System::EventHandler(this, &AnalogForm::groupBoxSettingsCircle_Enter);
@@ -321,13 +316,6 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->numericUpDownWidthCircle->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1, 0, 0, 0 });
     this->numericUpDownWidthCircle->ValueChanged += gcnew System::EventHandler(this, &AnalogForm::numericUpDownWidthCircle_ValueChanged);
     // 
-    // buttonApplyCircle
-    // 
-    resources->ApplyResources(this->buttonApplyCircle, L"buttonApplyCircle");
-    this->buttonApplyCircle->Name = L"buttonApplyCircle";
-    this->buttonApplyCircle->UseVisualStyleBackColor = true;
-    this->buttonApplyCircle->Click += gcnew System::EventHandler(this, &AnalogForm::buttonApplyCircle_Click);
-    // 
     // CircleHightLabel
     // 
     resources->ApplyResources(this->CircleHightLabel, L"CircleHightLabel");
@@ -340,17 +328,25 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->CircleWidthLabel->Name = L"CircleWidthLabel";
     this->CircleWidthLabel->Click += gcnew System::EventHandler(this, &AnalogForm::CircleWidthLabel_Click);
     // 
-    // groupBoxÒåêñòóðû
+    // groupBoxSettingsTexture
     // 
-    resources->ApplyResources(this->groupBoxÒåêñòóðû, L"groupBoxÒåêñòóðû");
-    this->groupBoxÒåêñòóðû->Controls->Add(this->numericUpDownHeightTexture);
-    this->groupBoxÒåêñòóðû->Controls->Add(this->numericUpDownWidthTexture);
-    this->groupBoxÒåêñòóðû->Controls->Add(this->buttonApplyTexture);
-    this->groupBoxÒåêñòóðû->Controls->Add(this->TextureHeightLabel);
-    this->groupBoxÒåêñòóðû->Controls->Add(this->TextureWidthLabel);
-    this->groupBoxÒåêñòóðû->Name = L"groupBoxÒåêñòóðû";
-    this->groupBoxÒåêñòóðû->TabStop = false;
-    this->groupBoxÒåêñòóðû->Enter += gcnew System::EventHandler(this, &AnalogForm::groupBoxÒåêñòóðû_Enter);
+    this->groupBoxSettingsTexture->Controls->Add(this->buttonChooseTexture);
+    this->groupBoxSettingsTexture->Controls->Add(this->numericUpDownHeightTexture);
+    this->groupBoxSettingsTexture->Controls->Add(this->numericUpDownWidthTexture);
+    this->groupBoxSettingsTexture->Controls->Add(this->buttonApplyTexture);
+    this->groupBoxSettingsTexture->Controls->Add(this->TextureHeightLabel);
+    this->groupBoxSettingsTexture->Controls->Add(this->TextureWidthLabel);
+    resources->ApplyResources(this->groupBoxSettingsTexture, L"groupBoxSettingsTexture");
+    this->groupBoxSettingsTexture->Name = L"groupBoxSettingsTexture";
+    this->groupBoxSettingsTexture->TabStop = false;
+    this->groupBoxSettingsTexture->Enter += gcnew System::EventHandler(this, &AnalogForm::groupBoxÒåêñòóðû_Enter);
+    // 
+    // buttonChooseTexture
+    // 
+    resources->ApplyResources(this->buttonChooseTexture, L"buttonChooseTexture");
+    this->buttonChooseTexture->Name = L"buttonChooseTexture";
+    this->buttonChooseTexture->UseVisualStyleBackColor = true;
+    this->buttonChooseTexture->Click += gcnew System::EventHandler(this, &AnalogForm::buttonChooseTexture_Click);
     // 
     // numericUpDownHeightTexture
     // 
@@ -420,16 +416,51 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     // 
     // groupBoxCreateProject
     // 
-    resources->ApplyResources(this->groupBoxCreateProject, L"groupBoxCreateProject");
+    this->groupBoxCreateProject->Controls->Add(this->label3);
+    this->groupBoxCreateProject->Controls->Add(this->label2);
+    this->groupBoxCreateProject->Controls->Add(this->label1);
+    this->groupBoxCreateProject->Controls->Add(this->radioButton2);
+    this->groupBoxCreateProject->Controls->Add(this->radioButton1);
     this->groupBoxCreateProject->Controls->Add(this->buttonOpenProject);
     this->groupBoxCreateProject->Controls->Add(this->numericUpDownProjectHight);
     this->groupBoxCreateProject->Controls->Add(this->numericUpDownProjectWidth);
     this->groupBoxCreateProject->Controls->Add(this->buttonCreateNewProject);
     this->groupBoxCreateProject->Controls->Add(this->ProjectHeightEnd);
     this->groupBoxCreateProject->Controls->Add(this->ProjectWidthEnd);
+    resources->ApplyResources(this->groupBoxCreateProject, L"groupBoxCreateProject");
     this->groupBoxCreateProject->Name = L"groupBoxCreateProject";
     this->groupBoxCreateProject->TabStop = false;
     this->groupBoxCreateProject->Enter += gcnew System::EventHandler(this, &AnalogForm::groupBoxCreateProject_Enter);
+    // 
+    // label3
+    // 
+    resources->ApplyResources(this->label3, L"label3");
+    this->label3->Name = L"label3";
+    // 
+    // label2
+    // 
+    resources->ApplyResources(this->label2, L"label2");
+    this->label2->Name = L"label2";
+    // 
+    // label1
+    // 
+    resources->ApplyResources(this->label1, L"label1");
+    this->label1->Name = L"label1";
+    // 
+    // radioButton2
+    // 
+    resources->ApplyResources(this->radioButton2, L"radioButton2");
+    this->radioButton2->Name = L"radioButton2";
+    this->radioButton2->TabStop = true;
+    this->radioButton2->UseVisualStyleBackColor = true;
+    // 
+    // radioButton1
+    // 
+    resources->ApplyResources(this->radioButton1, L"radioButton1");
+    this->radioButton1->Name = L"radioButton1";
+    this->radioButton1->TabStop = true;
+    this->radioButton1->UseVisualStyleBackColor = true;
+    this->radioButton1->CheckedChanged += gcnew System::EventHandler(this, &AnalogForm::radioButton1_CheckedChanged);
     // 
     // buttonOpenProject
     // 
@@ -441,12 +472,10 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     // openFileDialog1
     // 
     this->openFileDialog1->FileName = L"openFileDialog1";
-    resources->ApplyResources(this->openFileDialog1, L"openFileDialog1");
     this->openFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &AnalogForm::openFileDialog1_FileOk);
     // 
     // saveFileDialog1
     // 
-    resources->ApplyResources(this->saveFileDialog1, L"saveFileDialog1");
     this->saveFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &AnalogForm::saveFileDialog1_FileOk);
     // 
     // AnalogForm
@@ -454,7 +483,7 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     resources->ApplyResources(this, L"$this");
     this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
     this->Controls->Add(this->groupBoxCreateProject);
-    this->Controls->Add(this->groupBoxÒåêñòóðû);
+    this->Controls->Add(this->groupBoxSettingsTexture);
     this->Controls->Add(this->groupBoxSettingsCircle);
     this->Controls->Add(this->groupBoxSettingsSquare);
     this->Controls->Add(this->ToolBox);
@@ -477,13 +506,14 @@ inline void AnalogPaint::AnalogForm::InitializeComponent(void)
     this->groupBoxSettingsCircle->PerformLayout();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownHightCircle))->EndInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownWidthCircle))->EndInit();
-    this->groupBoxÒåêñòóðû->ResumeLayout(false);
-    this->groupBoxÒåêñòóðû->PerformLayout();
+    this->groupBoxSettingsTexture->ResumeLayout(false);
+    this->groupBoxSettingsTexture->PerformLayout();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownHeightTexture))->EndInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownWidthTexture))->EndInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownProjectWidth))->EndInit();
     (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDownProjectHight))->EndInit();
     this->groupBoxCreateProject->ResumeLayout(false);
+    this->groupBoxCreateProject->PerformLayout();
     this->ResumeLayout(false);
     this->PerformLayout();
 
@@ -494,82 +524,12 @@ System::Void AnalogPaint::AnalogForm::ParametrsLabel_Click(System::Object^ sende
     return System::Void();
 }
 
-void AnalogPaint::AnalogForm::DrawBackground()
-{
-    throw gcnew System::NotImplementedException();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonClearCanvas_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::CreateToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::CreateAsToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::ToolBoxToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::ActivityToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::AboutToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::ExitToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
 System::Void AnalogPaint::AnalogForm::FigureLabel_Click(System::Object^ sender, System::EventArgs^ e)
 {
     return System::Void();
 }
 
-System::Void AnalogPaint::AnalogForm::buttonColor_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonApplySize_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
 System::Void AnalogPaint::AnalogForm::numericUpDownSize_ValueChanged(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonActivateLine_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonActivateSquare_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonActivateCircle_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonActivateTexture_Click(System::Object^ sender, System::EventArgs^ e)
 {
     return System::Void();
 }
@@ -659,24 +619,11 @@ System::Void AnalogPaint::AnalogForm::numericUpDownHeightTexture_ValueChanged(Sy
     return System::Void();
 }
 
-System::Void AnalogPaint::AnalogForm::buttonApplyTexture_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
+
 
 System::Void AnalogPaint::AnalogForm::groupBoxCreateProject_Enter(System::Object^ sender, System::EventArgs^ e)
 {
     return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonCreateNewProject_Click(System::Object^ sender, System::EventArgs^ e)
-{
-    return System::Void();
-}
-
-System::Void AnalogPaint::AnalogForm::buttonOpenProject_Click(System::Object^ sender, System::EventArgs^ e)
-{
-	return System::Void();
 }
 
 System::Void AnalogPaint::AnalogForm::numericUpDownProjectWidth_ValueChanged(System::Object^ sender, System::EventArgs^ e)
@@ -694,7 +641,10 @@ System::Void AnalogPaint::AnalogForm::MainPictureBox_Click(System::Object^ sende
     return System::Void();
 }
 
-
+System::Void AnalogPaint::AnalogForm::ActivityToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    return System::Void();
+}
 
 System::Void AnalogPaint::AnalogForm::MainPictureBox_SizeChanged(System::Object^ sender, System::EventArgs^ e)
 {
@@ -775,13 +725,345 @@ System::Void AnalogPaint::AnalogForm::MainPictureBox_Paint(System::Object^ sende
             canvas->DrawImage(texture, mousePosition.X, mousePosition.Y, texture->Width, texture->Height);
         }
         break;
+    default:
+        break;
     }
 
+    if (clearAll) {
+        points->Clear();
+        canvas->Clear(Color::White);
+        clearAll = false;
 
+        mousePosition.X = -1;
+        mousePosition.Y = -1;
+        DrawBackground();
+    }
 
 }
 
 System::Void AnalogPaint::AnalogForm::AnalogForm_Load(System::Object^ sender, System::EventArgs^ e)
 {
+    color = Color::Red;
+    size = 15;
+    pen = gcnew Pen(color, size);
+    points = gcnew List <Point>();
+    draw = false;
+    statePen = 1;
+
+    buttonActivateLine->BackColor = Color::Green;
+    buttonActivateCircle->BackColor = Color::LightGray;
+    buttonActivateSquare->BackColor = Color::LightGray;
+    buttonActivateTexture->BackColor = Color::LightGray;
+
+    Bitmap^ Img = gcnew Bitmap(MainPictureBox->Width, MainPictureBox->Height);
+    canvas = Graphics::FromImage(Img);
+    MainPictureBox->Image = Img;
+    MainPictureBox->BackColor = Color::White;
+
+    numericUpDownProjectWidth->Minimum = 300;
+    numericUpDownProjectHight->Minimum = 300;
+    numericUpDownProjectWidth->Maximum = GetSystemMetrics(SM_CXSCREEN);
+    numericUpDownProjectHight->Maximum = GetSystemMetrics(SM_CXSCREEN);
+
+    clearAll = false;
+
+    filename = "openFileDialog1";
+
+    buttonColor->BackColor = color;
+
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::radioButton1_CheckedChanged(System::Object^ sender, System::EventArgs^ e)
+{
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonChooseTexture_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    String^ file;
+    openFileDialog1->ShowDialog();
+    file = openFileDialog1->FileName;
+
+    if (file == "openFileDialog")
+        return;
+
+
+    statePen = 4;
+    texture = gcnew Bitmap(file);
+
+    buttonActivateTexture->BackColor = Color::Green;
+
+    buttonActivateLine->BackColor = Color::LightGray;
+    buttonActivateSquare->BackColor = Color::LightGray;
+    buttonActivateCircle->BackColor = Color::LightGray;
+
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::ExitToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    Application::Exit();
+}
+
+System::Void AnalogPaint::AnalogForm::AboutToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    MessageBox::Show("Èíôîðìàöèÿ î ïðîãðàììå!", "Èíôîðìàöèÿ");
+}
+
+System::Void AnalogPaint::AnalogForm::CreateToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (groupBoxCreateProject->Visible) {
+        groupBoxCreateProject->Visible = false;
+    }
+    else {
+        groupBoxCreateProject->Visible = true;
+        groupBoxCreateProject->Location = Point(12, 37);
+    }
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::CreateAsToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    String^ fname;
+    saveFileDialog1->ShowDialog();
+    fname = saveFileDialog1->FileName;
+
+    if (fname == "")
+        return;
+
+    Bitmap^ img = gcnew Bitmap(MainPictureBox->Image);
+    img->Save(fname);
+
+    MessageBox::Show("Èçîáðàæåíèå ñîõðàíåíî ïî àäðåñó \"" + fname + "\".", "Âíèìàíèå!");
+
+    return System::Void();
+
+}
+
+System::Void AnalogPaint::AnalogForm::ToolBoxToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (ToolBox->Visible) {
+        ToolBox->Visible = false;
+    }
+    else {
+        ToolBox->Visible = true;
+        ToolBox->Location = Point(12, 37);
+    }
+
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonApplySize_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    size = Convert::ToSingle(numericUpDownSize->Value);
+    pen = gcnew Pen(color, size);
+
+    return System::Void();
+}
+
+
+System::Void AnalogPaint::AnalogForm::buttonColor_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    colorDialog1->ShowDialog();
+    color = colorDialog1->Color;
+
+    buttonColor->BackColor = color;
+
+    if (color == Color::Black) {
+        buttonColor->ForeColor = Color::White;
+    }
+    else {
+        buttonColor->ForeColor = Color::Black;
+    }
+
+    pen = gcnew Pen(color, size);
+
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonClearCanvas_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    clearAll = true;
+    MainPictureBox->Invalidate();
+    
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonActivateLine_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (statePen != 1) {
+        statePen = 1;
+
+        buttonActivateLine->BackColor = Color::Green;
+
+        buttonActivateLine->BackColor = Color::LightGray;
+        buttonActivateSquare->BackColor = Color::LightGray;
+        buttonActivateTexture->BackColor = Color::LightGray;
+    }
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonActivateSquare_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (statePen != 2) {
+        statePen = 2;
+
+        buttonActivateSquare->BackColor = Color::Green;
+
+        buttonActivateLine->BackColor = Color::LightGray;
+        buttonActivateTexture->BackColor = Color::LightGray;
+        buttonActivateCircle->BackColor = Color::LightGray;
+
+        groupBoxSettingsSquare->Visible = true;
+        groupBoxSettingsSquare->Location = Point(30, 172);
+
+        groupBoxSettingsCircle->Visible = false;
+        groupBoxSettingsTexture->Visible = false;
+    }
+    else {
+        if (groupBoxSettingsSquare->Visible) {
+            groupBoxSettingsSquare->Visible = false;
+        }
+        else {
+            groupBoxSettingsSquare->Visible = true;
+            groupBoxSettingsSquare->Location = Point(30, 172);
+        }
+    }
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonActivateCircle_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (statePen != 3) {
+        statePen = 3;
+
+        buttonActivateCircle->BackColor = Color::Green;
+
+        buttonActivateLine->BackColor = Color::LightGray;
+        buttonActivateSquare->BackColor = Color::LightGray;
+        buttonActivateTexture->BackColor = Color::LightGray;
+
+        groupBoxSettingsCircle->Visible = true;
+        groupBoxSettingsCircle->Location = Point(30, 172);
+
+        groupBoxSettingsSquare->Visible = false;
+        groupBoxSettingsTexture->Visible = false;
+    }
+    else {
+        if (groupBoxSettingsCircle->Visible) {
+            groupBoxSettingsCircle->Visible = false;
+        }
+        else {
+            groupBoxSettingsCircle->Visible = true;
+            groupBoxSettingsCircle->Location = Point(30, 172);
+        }
+    }
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonActivateTexture_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (statePen != 4) {
+        groupBoxSettingsTexture->Visible = true;
+        groupBoxSettingsTexture->Location = Point(30, 172);
+
+        groupBoxSettingsCircle->Visible = false;
+        groupBoxSettingsSquare->Visible = false;
+
+        if (texture != nullptr) {
+            statePen = 4;
+
+            buttonActivateTexture->BackColor = Color::Green;
+
+            buttonActivateLine->BackColor = Color::LightGray;
+            buttonActivateSquare->BackColor = Color::LightGray;
+            buttonActivateCircle->BackColor = Color::LightGray;
+        }
+    }
+    else {
+        if (groupBoxSettingsTexture->Visible) {
+            groupBoxSettingsTexture->Visible = false;
+        }
+        else {
+            groupBoxSettingsTexture->Visible = true;
+            groupBoxSettingsTexture->Location = Point(30, 172);
+        }
+    }
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonCreateNewProject_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    this->Width = Convert::ToInt32(numericUpDownProjectWidth->Value);
+    this->Height = Convert::ToInt32(numericUpDownProjectHight->Value);
+
+    if (groupBoxCreateProject->Visible) {
+        groupBoxCreateProject->Visible = false;
+    }
+
+    filename = "openFileDialog1";
+
+    return System::Void();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonOpenProject_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    if (radioButton1->Checked == false && radioButton2->Checked == false) {
+        MessageBox::Show("Âûáåðèòå ðàçìåð ôîíà!", "Âíèìàíèå!");
+        return;
+    }
+
+    openFileDialog1->ShowDialog();
+    filename = openFileDialog1->FileName;
+
+    if (filename == "openFileDialog1")
+        return;
+
+    background = gcnew Bitmap(filename);
+
+    if (radioButton1->Checked) {
+        this->Width = background->Width;
+        this->Height = background->Height;
+    }
+    else if (radioButton2->Checked) {
+        background = gcnew Bitmap(background, Convert::ToInt32(numericUpDownProjectWidth->Width), Convert::ToInt32(numericUpDownProjectWidth->Height));
+        this->Width = background->Width;
+        this->Height = background->Height;
+    }
+
+    canvas = Graphics::FromImage(background);
+    MainPictureBox->Image = background;
+
+    if (groupBoxCreateProject->Visible) {
+        groupBoxCreateProject->Visible = false;
+    }
+
+    return System::Void();
+}
+
+void AnalogPaint::AnalogForm::DrawBackground()
+{
+    if (filename != "openFileDialog1") {
+        background = gcnew Bitmap(filename);
+        background = gcnew Bitmap(background, MainPictureBox->Width, MainPictureBox->Height);
+    }
+    else
+        background = gcnew Bitmap(MainPictureBox->Image, MainPictureBox->Width, MainPictureBox->Height);
+
+    delete canvas;
+    canvas = Graphics::FromImage(background);
+    MainPictureBox->Image = background;
+    MainPictureBox->Refresh();
+    MainPictureBox->Invalidate();
+}
+
+System::Void AnalogPaint::AnalogForm::buttonApplyTexture_Click(System::Object^ sender, System::EventArgs^ e)
+{
+    float width = Convert::ToSingle(numericUpDownWidthTexture->Value);
+    float height = Convert::ToSingle(numericUpDownHeightTexture->Value);
+    texture = gcnew Bitmap(texture, width, height);
+
+
     return System::Void();
 }

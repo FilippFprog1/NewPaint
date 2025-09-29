@@ -117,1098 +117,1165 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;buttonClearCanvas.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;ParametrsLabel.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownSize.Name" xml:space="preserve">
-    <value>numericUpDownSize</value>
-  </data>
-  <data name="&gt;&gt;CreateAsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>649, 24</value>
-  </data>
-  <data name="ParametrsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 25</value>
-  </data>
-  <data name="&gt;&gt;SquareWidthLabel.Name" xml:space="preserve">
-    <value>SquareWidthLabel</value>
-  </data>
-  <data name="&gt;&gt;TextureHeightLabel.Parent" xml:space="preserve">
-    <value>groupBoxТекстуры</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightSquare.Name" xml:space="preserve">
-    <value>numericUpDownHightSquare</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="numericUpDownHightSquare.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="TextureHeightLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProject.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHeightTexture.Name" xml:space="preserve">
-    <value>numericUpDownHeightTexture</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownProjectHight.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ParametrsLabel.Text" xml:space="preserve">
-    <value>Параметры кисти</value>
-  </data>
-  <data name="SquareHightLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
-  </data>
-  <data name="&gt;&gt;buttonColor.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBoxSettingsSquare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 164</value>
-  </data>
-  <data name="SquareWidthLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="buttonActivateLine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 70</value>
-  </data>
-  <data name="&gt;&gt;MainPictureBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="FigureLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySize.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericUpDownHeightTexture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="&gt;&gt;CircleWidthLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonActivateCircle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 99</value>
-  </data>
-  <data name="buttonClearCanvas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 70</value>
-  </data>
-  <data name="ProjectHeightEnd.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="numericUpDownProjectWidth.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="SquareWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
-  </data>
-  <data name="buttonColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthCircle.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonActivateTexture.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateNewProject.Name" xml:space="preserve">
-    <value>buttonCreateNewProject</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="FigureLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="&gt;&gt;MainPictureBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="numericUpDownHightCircle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="buttonCreateNewProject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 36</value>
-  </data>
-  <data name="ProjectHeightEnd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 36</value>
-  </data>
-  <data name="&gt;&gt;TextureHeightLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="numericUpDownHightSquare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateSquare.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownProjectHight.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 20</value>
-  </data>
-  <data name="buttonActivateLine.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthTexture.Name" xml:space="preserve">
-    <value>numericUpDownWidthTexture</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyTexture.Parent" xml:space="preserve">
-    <value>groupBoxТекстуры</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateLine.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="SquareWidthLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="numericUpDownProjectWidth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 52</value>
-  </data>
-  <data name="numericUpDownHightCircle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 36</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthTexture.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="SquareWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="&gt;&gt;ToolBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="SquareHightLabel.Text" xml:space="preserve">
-    <value>Высота</value>
-  </data>
-  <data name="CircleHightLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 20</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
-    <value>saveFileDialog1</value>
-  </data>
-  <data name="ParametrsLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 18pt</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownProjectWidth.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="CreateAsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Сохранить как</value>
-  </data>
-  <data name="&gt;&gt;CircleHightLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonApplySquare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthCircle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonActivateTexture.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 99</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightCircle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonClearCanvas.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBoxSettingsSquare.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyCircle.Name" xml:space="preserve">
-    <value>buttonApplyCircle</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySize.Name" xml:space="preserve">
-    <value>buttonApplySize</value>
-  </data>
-  <data name="&gt;&gt;CircleWidthLabel.Parent" xml:space="preserve">
-    <value>groupBoxSettingsCircle</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthTexture.Parent" xml:space="preserve">
-    <value>groupBoxТекстуры</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingsCircle.Name" xml:space="preserve">
-    <value>groupBoxSettingsCircle</value>
-  </data>
-  <data name="ToolBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySize.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="buttonApplyCircle.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolBoxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="buttonCreateNewProject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownProjectWidth.Name" xml:space="preserve">
-    <value>numericUpDownProjectWidth</value>
-  </data>
-  <data name="&gt;&gt;groupBoxCreateProject.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxТекстуры.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateCircle.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="groupBoxCreateProject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>351, 149</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="numericUpDownSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 101</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;ParametrsLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonClearCanvas.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="&gt;&gt;AboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>AboutToolStripMenuItem</value>
-  </data>
-  <data name="groupBoxSettingsCircle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 164</value>
-  </data>
-  <data name="buttonClearCanvas.Text" xml:space="preserve">
-    <value>Очистить холст</value>
-  </data>
-  <data name="FigureLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightCircle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 36</value>
-  </data>
-  <data name="TextureWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthSquare.Name" xml:space="preserve">
-    <value>numericUpDownWidthSquare</value>
-  </data>
-  <data name="&gt;&gt;FigureLabel.Name" xml:space="preserve">
-    <value>FigureLabel</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateSquare.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="numericUpDownProjectHight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="buttonClearCanvas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 23</value>
-  </data>
-  <data name="&gt;&gt;buttonColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonApplySize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 99</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateTexture.Name" xml:space="preserve">
-    <value>buttonActivateTexture</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ActivityToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonColor.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBoxSettingsCircle.Text" xml:space="preserve">
-    <value>Настройка круга</value>
-  </data>
-  <data name="numericUpDownProjectHight.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonOpenProject.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="numericUpDownWidthTexture.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="numericUpDownWidthTexture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySquare.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
-    <value>colorDialog1</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyCircle.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="CircleHightLabel.Text" xml:space="preserve">
-    <value>Высота</value>
-  </data>
-  <data name="&gt;&gt;CircleWidthLabel.Name" xml:space="preserve">
-    <value>CircleWidthLabel</value>
-  </data>
-  <data name="&gt;&gt;SquareWidthLabel.Parent" xml:space="preserve">
-    <value>groupBoxSettingsSquare</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHeightTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthSquare.Parent" xml:space="preserve">
-    <value>groupBoxSettingsSquare</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="groupBoxSettingsCircle.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingsCircle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateNewProject.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="groupBoxCreateProject.Text" xml:space="preserve">
-    <value>Создать проект</value>
-  </data>
-  <data name="buttonCreateNewProject.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonActivateSquare.Text" xml:space="preserve">
-    <value>Квадрат</value>
-  </data>
-  <data name="groupBoxТекстуры.Text" xml:space="preserve">
-    <value>Настройка текстуры</value>
-  </data>
-  <data name="numericUpDownWidthSquare.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="buttonActivateLine.Text" xml:space="preserve">
-    <value>Линия</value>
-  </data>
-  <data name="&gt;&gt;CircleHightLabel.Parent" xml:space="preserve">
-    <value>groupBoxSettingsCircle</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="CircleWidthLabel.Text" xml:space="preserve">
-    <value>Ширина</value>
-  </data>
-  <data name="buttonApplySquare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 62</value>
-  </data>
-  <data name="numericUpDownSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySquare.Name" xml:space="preserve">
-    <value>buttonApplySquare</value>
-  </data>
-  <data name="buttonActivateTexture.Text" xml:space="preserve">
-    <value> Текстура</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightCircle.Name" xml:space="preserve">
-    <value>numericUpDownHightCircle</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyTexture.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="buttonApplyTexture.Text" xml:space="preserve">
-    <value>Применить</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="CircleWidthLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBoxТекстуры.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 100</value>
-  </data>
-  <data name="&gt;&gt;CircleHightLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SquareHightLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MainPictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="buttonActivateCircle.Text" xml:space="preserve">
-    <value>Круг</value>
-  </data>
-  <data name="&gt;&gt;CreateToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericUpDownWidthCircle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="SquareHightLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 20</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateNewProject.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonApplyTexture.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="buttonApplyCircle.Text" xml:space="preserve">
-    <value>Применить</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownSize.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="buttonApplySize.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ToolBoxToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonApplyTexture.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 62</value>
-  </data>
-  <data name="buttonActivateSquare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 70</value>
-  </data>
-  <data name="ProjectWidthEnd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProject.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="buttonApplySize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 23</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingsSquare.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthSquare.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>О программе</value>
-  </data>
-  <data name="&gt;&gt;groupBoxТекстуры.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateTexture.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ExitToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProjectHeightEnd.Name" xml:space="preserve">
-    <value>ProjectHeightEnd</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonActivateCircle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;ProjectWidthEnd.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="groupBoxCreateProject.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="CircleHightLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TextureHeightLabel.Name" xml:space="preserve">
-    <value>TextureHeightLabel</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySquare.Parent" xml:space="preserve">
-    <value>groupBoxSettingsSquare</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateSquare.Name" xml:space="preserve">
-    <value>buttonActivateSquare</value>
-  </data>
-  <data name="groupBoxSettingsSquare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 100</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHeightTexture.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownProjectWidth.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="numericUpDownHeightTexture.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;groupBoxТекстуры.Name" xml:space="preserve">
-    <value>groupBoxТекстуры</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 36</value>
-  </data>
-  <data name="&gt;&gt;FigureLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="buttonActivateSquare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyTexture.Name" xml:space="preserve">
-    <value>buttonApplyTexture</value>
-  </data>
-  <data name="MainPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>649, 488</value>
-  </data>
-  <data name="&gt;&gt;FigureLabel.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="ToolBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>649, 131</value>
-  </data>
-  <data name="&gt;&gt;ActivityToolStripMenuItem.Name" xml:space="preserve">
-    <value>ActivityToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;TextureWidthLabel.Parent" xml:space="preserve">
-    <value>groupBoxТекстуры</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProject.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBoxТекстуры.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="numericUpDownProjectWidth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="numericUpDownHightCircle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="groupBoxТекстуры.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="numericUpDownWidthCircle.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TextureWidthLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="numericUpDownWidthSquare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 36</value>
-  </data>
-  <data name="TextureWidthLabel.Text" xml:space="preserve">
-    <value>Ширина</value>
+  <data name="CreateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
   </data>
   <data name="CreateToolStripMenuItem.Text" xml:space="preserve">
     <value>Создать</value>
   </data>
-  <data name="groupBoxSettingsCircle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="CreateAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
   </data>
-  <data name="&gt;&gt;groupBoxSettingsSquare.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="CreateAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как</value>
   </data>
-  <data name="&gt;&gt;numericUpDownHightSquare.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="ToolBoxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
   </data>
-  <data name="numericUpDownWidthTexture.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 36</value>
+  <data name="ToolBoxToolStripMenuItem.Text" xml:space="preserve">
+    <value>Панель элементов</value>
   </data>
-  <data name="&gt;&gt;numericUpDownProjectWidth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CircleHightLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SquareHightLabel.Name" xml:space="preserve">
-    <value>SquareHightLabel</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TextureWidthLabel.Name" xml:space="preserve">
-    <value>TextureWidthLabel</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyCircle.Parent" xml:space="preserve">
-    <value>groupBoxSettingsCircle</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AnalogForm</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBoxSettingsSquare.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="numericUpDownHeightTexture.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 36</value>
-  </data>
-  <data name="TextureHeightLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;CreateAsToolStripMenuItem.Name" xml:space="preserve">
-    <value>CreateAsToolStripMenuItem</value>
-  </data>
-  <data name="ProjectWidthEnd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 36</value>
+  <data name="ActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
   </data>
   <data name="ActivityToolStripMenuItem.Text" xml:space="preserve">
     <value>Действия</value>
   </data>
-  <data name="TextureWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
+  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
   </data>
-  <data name="&gt;&gt;buttonActivateTexture.Parent" xml:space="preserve">
-    <value>ToolBox</value>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
   </data>
-  <data name="CreateAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="ExitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="MainPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 27</value>
+    <value>-1, 21</value>
   </data>
-  <data name="buttonColor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 70</value>
+  <data name="MainPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 488</value>
+  </data>
+  <data name="MainPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MainPictureBox.Name" xml:space="preserve">
+    <value>MainPictureBox</value>
+  </data>
+  <data name="&gt;&gt;MainPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainPictureBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numericUpDownSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 101</value>
+  </data>
+  <data name="numericUpDownSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
   </data>
   <data name="numericUpDownSize.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="SquareHightLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;numericUpDownSize.Name" xml:space="preserve">
+    <value>numericUpDownSize</value>
   </data>
-  <data name="FigureLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>408, 25</value>
+  <data name="&gt;&gt;numericUpDownSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDownProjectHight.Name" xml:space="preserve">
-    <value>numericUpDownProjectHight</value>
+  <data name="&gt;&gt;numericUpDownSize.Parent" xml:space="preserve">
+    <value>ToolBox</value>
   </data>
-  <data name="&gt;&gt;ProjectHeightEnd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;numericUpDownSize.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;buttonActivateLine.Type" xml:space="preserve">
+  <data name="buttonActivateTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 99</value>
+  </data>
+  <data name="buttonActivateTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonActivateTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonActivateTexture.Text" xml:space="preserve">
+    <value> Текстура</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateTexture.Name" xml:space="preserve">
+    <value>buttonActivateTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateTexture.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBoxSettingsSquare.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;buttonActivateTexture.Parent" xml:space="preserve">
+    <value>ToolBox</value>
   </data>
-  <data name="CircleWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
+  <data name="&gt;&gt;buttonActivateTexture.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;buttonClearCanvas.Type" xml:space="preserve">
+  <data name="buttonActivateCircle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 99</value>
+  </data>
+  <data name="buttonActivateCircle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonActivateCircle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonActivateCircle.Text" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateCircle.Name" xml:space="preserve">
+    <value>buttonActivateCircle</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateCircle.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonActivateCircle.Parent" xml:space="preserve">
     <value>ToolBox</value>
   </data>
-  <data name="buttonActivateCircle.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="FigureLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 31</value>
-  </data>
-  <data name="ActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
-  </data>
-  <data name="&gt;&gt;buttonClearCanvas.Name" xml:space="preserve">
-    <value>buttonClearCanvas</value>
-  </data>
-  <data name="ProjectHeightEnd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="FigureLabel.Text" xml:space="preserve">
-    <value>Фигуры</value>
-  </data>
-  <data name="groupBoxSettingsSquare.Text" xml:space="preserve">
-    <value>Настройка квадрата</value>
-  </data>
-  <data name="&gt;&gt;CircleHightLabel.Name" xml:space="preserve">
-    <value>CircleHightLabel</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthSquare.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TextureHeightLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 20</value>
-  </data>
-  <data name="&gt;&gt;TextureHeightLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupBoxCreateProject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 366</value>
-  </data>
-  <data name="ParametrsLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CircleHightLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;CreateToolStripMenuItem.Name" xml:space="preserve">
-    <value>CreateToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;groupBoxCreateProject.Name" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="ProjectWidthEnd.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightSquare.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonCreateNewProject.Text" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="&gt;&gt;SquareHightLabel.Parent" xml:space="preserve">
-    <value>groupBoxSettingsSquare</value>
-  </data>
-  <data name="buttonApplySize.Text" xml:space="preserve">
-    <value>Применить размер</value>
-  </data>
-  <data name="TextureHeightLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
-  </data>
-  <data name="CreateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="&gt;&gt;ProjectHeightEnd.Parent" xml:space="preserve">
-    <value>groupBoxCreateProject</value>
-  </data>
-  <data name="&gt;&gt;ParametrsLabel.Name" xml:space="preserve">
-    <value>ParametrsLabel</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateNewProject.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SquareWidthLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateCircle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;ProjectWidthEnd.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="TextureHeightLabel.Text" xml:space="preserve">
-    <value>Высота</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingsCircle.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonActivateCircle.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="groupBoxТекстуры.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 164</value>
+  <data name="buttonActivateSquare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 70</value>
   </data>
-  <data name="buttonOpenProject.Text" xml:space="preserve">
-    <value>Открыть</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Ширина</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
-  </data>
-  <data name="buttonOpenProject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 65</value>
-  </data>
-  <data name="&gt;&gt;SquareWidthLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
-    <value>openFileDialog1</value>
-  </data>
-  <data name="&gt;&gt;buttonColor.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="&gt;&gt;ParametrsLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TextureWidthLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="buttonActivateTexture.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonActivateSquare.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="ParametrsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 29</value>
+  <data name="buttonActivateSquare.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;ToolBox.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="buttonActivateSquare.Text" xml:space="preserve">
+    <value>Квадрат</value>
   </data>
-  <data name="buttonApplyCircle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;buttonActivateSquare.Name" xml:space="preserve">
+    <value>buttonActivateSquare</value>
   </data>
-  <data name="buttonApplyTexture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownSize.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ToolBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySquare.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonActivateSquare.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="numericUpDownHightSquare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 36</value>
-  </data>
-  <data name="&gt;&gt;ToolBox.Name" xml:space="preserve">
+  <data name="&gt;&gt;buttonActivateSquare.Parent" xml:space="preserve">
     <value>ToolBox</value>
   </data>
-  <data name="ToolBox.Text" xml:space="preserve">
-    <value>Панель элементов</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Высота</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>649, 514</value>
-  </data>
-  <data name="&gt;&gt;SquareHightLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonActivateSquare.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;numericUpDownSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownProjectHight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProjectHeightEnd.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="ParametrsLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>AnalogPaint</value>
-  </data>
-  <data name="&gt;&gt;TextureWidthLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericUpDownWidthCircle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 36</value>
-  </data>
-  <data name="&gt;&gt;AboutToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthCircle.Parent" xml:space="preserve">
-    <value>groupBoxSettingsCircle</value>
-  </data>
-  <data name="numericUpDownProjectHight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 52</value>
-  </data>
-  <data name="&gt;&gt;ToolBoxToolStripMenuItem.Name" xml:space="preserve">
-    <value>ToolBoxToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;buttonApplyCircle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateLine.Name" xml:space="preserve">
-    <value>buttonActivateLine</value>
+  <data name="buttonActivateLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 70</value>
   </data>
   <data name="buttonActivateLine.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="ToolBoxToolStripMenuItem.Text" xml:space="preserve">
-    <value>Панель элементов</value>
+  <data name="buttonActivateLine.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="buttonApplySquare.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonActivateLine.Text" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateLine.Name" xml:space="preserve">
+    <value>buttonActivateLine</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateLine.Parent" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;buttonActivateLine.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonApplySize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 99</value>
+  </data>
+  <data name="buttonApplySize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <data name="buttonApplySize.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonApplySize.Text" xml:space="preserve">
+    <value>Применить размер</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySize.Name" xml:space="preserve">
+    <value>buttonApplySize</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySize.Parent" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;buttonApplySize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonClearCanvas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 70</value>
+  </data>
+  <data name="buttonClearCanvas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="buttonClearCanvas.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonClearCanvas.Text" xml:space="preserve">
+    <value>Очистить холст</value>
+  </data>
+  <data name="&gt;&gt;buttonClearCanvas.Name" xml:space="preserve">
+    <value>buttonClearCanvas</value>
+  </data>
+  <data name="&gt;&gt;buttonClearCanvas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClearCanvas.Parent" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;buttonClearCanvas.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 70</value>
+  </data>
+  <data name="buttonColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonColor.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;FigureLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="SquareWidthLabel.Text" xml:space="preserve">
-    <value>Ширина</value>
+  <data name="buttonColor.Text" xml:space="preserve">
+    <value>Цвет</value>
   </data>
   <data name="&gt;&gt;buttonColor.Name" xml:space="preserve">
     <value>buttonColor</value>
   </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonColor.Parent" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;buttonColor.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="FigureLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FigureLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="FigureLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 25</value>
+  </data>
+  <data name="FigureLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="FigureLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="FigureLabel.Text" xml:space="preserve">
+    <value>Фигуры</value>
+  </data>
+  <data name="&gt;&gt;FigureLabel.Name" xml:space="preserve">
+    <value>FigureLabel</value>
+  </data>
+  <data name="&gt;&gt;FigureLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FigureLabel.Parent" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;FigureLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ParametrsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ParametrsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="ParametrsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
+  </data>
+  <data name="ParametrsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 29</value>
+  </data>
+  <data name="ParametrsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ParametrsLabel.Text" xml:space="preserve">
+    <value>Параметры кисти</value>
+  </data>
+  <data name="&gt;&gt;ParametrsLabel.Name" xml:space="preserve">
+    <value>ParametrsLabel</value>
+  </data>
+  <data name="&gt;&gt;ParametrsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ParametrsLabel.Parent" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;ParametrsLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ToolBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="ToolBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>649, 131</value>
+  </data>
+  <data name="ToolBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ToolBox.Text" xml:space="preserve">
+    <value>Панель элементов</value>
+  </data>
+  <data name="&gt;&gt;ToolBox.Name" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="&gt;&gt;ToolBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="numericUpDownHightSquare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="numericUpDownHightSquare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownHightSquare.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightSquare.Name" xml:space="preserve">
+    <value>numericUpDownHightSquare</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightSquare.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightSquare.Parent" xml:space="preserve">
+    <value>groupBoxSettingsSquare</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightSquare.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericUpDownWidthSquare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
+  </data>
+  <data name="numericUpDownWidthSquare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownWidthSquare.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthSquare.Name" xml:space="preserve">
+    <value>numericUpDownWidthSquare</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthSquare.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthSquare.Parent" xml:space="preserve">
+    <value>groupBoxSettingsSquare</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthSquare.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SquareHightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SquareHightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="SquareHightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="SquareHightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SquareHightLabel.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="&gt;&gt;SquareHightLabel.Name" xml:space="preserve">
+    <value>SquareHightLabel</value>
+  </data>
+  <data name="&gt;&gt;SquareHightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SquareHightLabel.Parent" xml:space="preserve">
+    <value>groupBoxSettingsSquare</value>
+  </data>
+  <data name="&gt;&gt;SquareHightLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SquareWidthLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SquareWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="SquareWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="SquareWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SquareWidthLabel.Text" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="&gt;&gt;SquareWidthLabel.Name" xml:space="preserve">
+    <value>SquareWidthLabel</value>
+  </data>
+  <data name="&gt;&gt;SquareWidthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SquareWidthLabel.Parent" xml:space="preserve">
+    <value>groupBoxSettingsSquare</value>
+  </data>
+  <data name="&gt;&gt;SquareWidthLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxSettingsSquare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 164</value>
+  </data>
+  <data name="groupBoxSettingsSquare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 65</value>
+  </data>
+  <data name="groupBoxSettingsSquare.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBoxSettingsSquare.Text" xml:space="preserve">
+    <value>Настройка квадрата</value>
+  </data>
+  <data name="groupBoxSettingsSquare.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsSquare.Name" xml:space="preserve">
+    <value>groupBoxSettingsSquare</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsSquare.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsSquare.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsSquare.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numericUpDownHightCircle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="numericUpDownHightCircle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownHightCircle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightCircle.Name" xml:space="preserve">
+    <value>numericUpDownHightCircle</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightCircle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightCircle.Parent" xml:space="preserve">
+    <value>groupBoxSettingsCircle</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHightCircle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericUpDownWidthCircle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
+  </data>
+  <data name="numericUpDownWidthCircle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownWidthCircle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthCircle.Name" xml:space="preserve">
+    <value>numericUpDownWidthCircle</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthCircle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthCircle.Parent" xml:space="preserve">
+    <value>groupBoxSettingsCircle</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthCircle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CircleHightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CircleHightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="CircleHightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="CircleHightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CircleHightLabel.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="&gt;&gt;CircleHightLabel.Name" xml:space="preserve">
+    <value>CircleHightLabel</value>
+  </data>
+  <data name="&gt;&gt;CircleHightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CircleHightLabel.Parent" xml:space="preserve">
+    <value>groupBoxSettingsCircle</value>
+  </data>
+  <data name="&gt;&gt;CircleHightLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CircleWidthLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CircleWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="CircleWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="CircleWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CircleWidthLabel.Text" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="&gt;&gt;CircleWidthLabel.Name" xml:space="preserve">
+    <value>CircleWidthLabel</value>
+  </data>
+  <data name="&gt;&gt;CircleWidthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CircleWidthLabel.Parent" xml:space="preserve">
+    <value>groupBoxSettingsCircle</value>
+  </data>
+  <data name="&gt;&gt;CircleWidthLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxSettingsCircle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 164</value>
+  </data>
+  <data name="groupBoxSettingsCircle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 65</value>
+  </data>
+  <data name="groupBoxSettingsCircle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBoxSettingsCircle.Text" xml:space="preserve">
+    <value>Настройка круга</value>
+  </data>
+  <data name="groupBoxSettingsCircle.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsCircle.Name" xml:space="preserve">
+    <value>groupBoxSettingsCircle</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsCircle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsCircle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsCircle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonChooseTexture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonChooseTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="buttonChooseTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="buttonChooseTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonChooseTexture.Text" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="&gt;&gt;buttonChooseTexture.Name" xml:space="preserve">
+    <value>buttonChooseTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonChooseTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChooseTexture.Parent" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonChooseTexture.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericUpDownHeightTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="numericUpDownHeightTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownHeightTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHeightTexture.Name" xml:space="preserve">
+    <value>numericUpDownHeightTexture</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHeightTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHeightTexture.Parent" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownHeightTexture.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numericUpDownWidthTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
+  </data>
+  <data name="numericUpDownWidthTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownWidthTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthTexture.Name" xml:space="preserve">
+    <value>numericUpDownWidthTexture</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthTexture.Parent" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWidthTexture.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonApplyTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 62</value>
+  </data>
+  <data name="buttonApplyTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonApplyTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonApplyTexture.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyTexture.Name" xml:space="preserve">
+    <value>buttonApplyTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyTexture.Parent" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonApplyTexture.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TextureHeightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TextureHeightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="TextureHeightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="TextureHeightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TextureHeightLabel.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="&gt;&gt;TextureHeightLabel.Name" xml:space="preserve">
+    <value>TextureHeightLabel</value>
+  </data>
+  <data name="&gt;&gt;TextureHeightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextureHeightLabel.Parent" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;TextureHeightLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TextureWidthLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TextureWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="TextureWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="TextureWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TextureWidthLabel.Text" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="&gt;&gt;TextureWidthLabel.Name" xml:space="preserve">
+    <value>TextureWidthLabel</value>
+  </data>
+  <data name="&gt;&gt;TextureWidthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextureWidthLabel.Parent" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;TextureWidthLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBoxSettingsTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 164</value>
+  </data>
+  <data name="groupBoxSettingsTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="groupBoxSettingsTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBoxSettingsTexture.Text" xml:space="preserve">
+    <value>Настройка текстуры</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsTexture.Name" xml:space="preserve">
+    <value>groupBoxSettingsTexture</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsTexture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingsTexture.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProjectWidthEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 36</value>
+  </data>
+  <data name="ProjectWidthEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="ProjectWidthEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProjectWidthEnd.Name" xml:space="preserve">
+    <value>ProjectWidthEnd</value>
+  </data>
+  <data name="&gt;&gt;ProjectWidthEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProjectWidthEnd.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;ProjectWidthEnd.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ProjectHeightEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 36</value>
+  </data>
+  <data name="ProjectHeightEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="ProjectHeightEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ProjectHeightEnd.Name" xml:space="preserve">
+    <value>ProjectHeightEnd</value>
+  </data>
+  <data name="&gt;&gt;ProjectHeightEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProjectHeightEnd.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;ProjectHeightEnd.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonCreateNewProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="buttonCreateNewProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonCreateNewProject.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonCreateNewProject.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateNewProject.Name" xml:space="preserve">
+    <value>buttonCreateNewProject</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateNewProject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateNewProject.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateNewProject.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="numericUpDownProjectWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 52</value>
+  </data>
+  <data name="numericUpDownProjectWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownProjectWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectWidth.Name" xml:space="preserve">
+    <value>numericUpDownProjectWidth</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectWidth.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectWidth.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="numericUpDownProjectHight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 52</value>
+  </data>
+  <data name="numericUpDownProjectHight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="numericUpDownProjectHight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectHight.Name" xml:space="preserve">
+    <value>numericUpDownProjectHight</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectHight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectHight.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownProjectHight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 109</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Размер фона:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 36</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 36</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 119</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Заданный</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
+    <value>radioButton2</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 96</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>Исходный</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonOpenProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="buttonOpenProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonOpenProject.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonOpenProject.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProject.Name" xml:space="preserve">
+    <value>buttonOpenProject</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProject.Parent" xml:space="preserve">
+    <value>groupBoxCreateProject</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenProject.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBoxCreateProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 360</value>
+  </data>
+  <data name="groupBoxCreateProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 155</value>
+  </data>
+  <data name="groupBoxCreateProject.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBoxCreateProject.Text" xml:space="preserve">
+    <value>Создать проект</value>
+  </data>
+  <data name="&gt;&gt;groupBoxCreateProject.Name" xml:space="preserve">
     <value>groupBoxCreateProject</value>
   </data>
   <data name="&gt;&gt;groupBoxCreateProject.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDownHeightTexture.Parent" xml:space="preserve">
-    <value>groupBoxТекстуры</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateLine.Parent" xml:space="preserve">
-    <value>ToolBox</value>
-  </data>
-  <data name="buttonOpenProject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateCircle.Name" xml:space="preserve">
-    <value>buttonActivateCircle</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TextureWidthLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="SquareHightLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;ToolBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonColor.Text" xml:space="preserve">
-    <value>Цвет</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightCircle.Parent" xml:space="preserve">
-    <value>groupBoxSettingsCircle</value>
-  </data>
-  <data name="&gt;&gt;buttonApplySize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingsSquare.Name" xml:space="preserve">
-    <value>groupBoxSettingsSquare</value>
-  </data>
-  <data name="buttonApplyCircle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 62</value>
-  </data>
-  <data name="groupBoxSettingsCircle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 100</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenProject.Name" xml:space="preserve">
-    <value>buttonOpenProject</value>
-  </data>
-  <data name="&gt;&gt;MainPictureBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBoxCreateProject.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="numericUpDownWidthSquare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="&gt;&gt;CircleWidthLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthCircle.Name" xml:space="preserve">
-    <value>numericUpDownWidthCircle</value>
-  </data>
-  <data name="&gt;&gt;MainPictureBox.Name" xml:space="preserve">
-    <value>MainPictureBox</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingsCircle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProjectWidthEnd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CircleWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
-  </data>
-  <data name="buttonApplySquare.Text" xml:space="preserve">
-    <value>Применить</value>
-  </data>
-  <data name="&gt;&gt;buttonActivateSquare.Parent" xml:space="preserve">
-    <value>ToolBox</value>
   </data>
   <data name="&gt;&gt;groupBoxCreateProject.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="buttonActivateSquare.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="CircleWidthLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;ProjectWidthEnd.Name" xml:space="preserve">
-    <value>ProjectWidthEnd</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownHightSquare.Parent" xml:space="preserve">
-    <value>groupBoxSettingsSquare</value>
-  </data>
-  <data name="&gt;&gt;groupBoxТекстуры.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExitToolStripMenuItem.Name" xml:space="preserve">
-    <value>ExitToolStripMenuItem</value>
-  </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru-RU</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>393, 17</value>
-  </metadata>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
   <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>272, 17</value>
   </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>393, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>707, 514</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AnalogPaint</value>
+  </data>
+  <data name="&gt;&gt;ActivityToolStripMenuItem.Name" xml:space="preserve">
+    <value>ActivityToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ActivityToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateToolStripMenuItem.Name" xml:space="preserve">
+    <value>CreateToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CreateToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateAsToolStripMenuItem.Name" xml:space="preserve">
+    <value>CreateAsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CreateAsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolBoxToolStripMenuItem.Name" xml:space="preserve">
+    <value>ToolBoxToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ToolBoxToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>AboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExitToolStripMenuItem.Name" xml:space="preserve">
+    <value>ExitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ExitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
+    <value>colorDialog1</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AnalogForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

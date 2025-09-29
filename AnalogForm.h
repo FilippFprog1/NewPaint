@@ -70,7 +70,7 @@ namespace AnalogPaint {
 	private: System::Windows::Forms::GroupBox^ groupBoxSettingsSquare;
 	private: System::Windows::Forms::NumericUpDown^ numericUpDownHightSquare;
 	private: System::Windows::Forms::NumericUpDown^ numericUpDownWidthSquare;
-	private: System::Windows::Forms::Button^ buttonApplySquare;
+
 	private: System::Windows::Forms::Label^ SquareHightLabel;
 
 	private: System::Windows::Forms::Label^ SquareWidthLabel;
@@ -79,14 +79,16 @@ namespace AnalogPaint {
 	private: System::Windows::Forms::NumericUpDown^ numericUpDownHightCircle;
 
 	private: System::Windows::Forms::NumericUpDown^ numericUpDownWidthCircle;
-	private: System::Windows::Forms::Button^ buttonApplyCircle;
+
 	private: System::Windows::Forms::Label^ CircleHightLabel;
 
 
 
 	private: System::Windows::Forms::Label^ CircleWidthLabel;
+	private: System::Windows::Forms::GroupBox^ groupBoxSettingsTexture;
 
-	private: System::Windows::Forms::GroupBox^ groupBoxÒåêñòóðû;
+
+
 	private: System::Windows::Forms::NumericUpDown^ numericUpDownHeightTexture;
 
 
@@ -114,6 +116,12 @@ namespace AnalogPaint {
 	private: System::Windows::Forms::OpenFileDialog^ openFileDialog1;
 	private: System::Windows::Forms::ColorDialog^ colorDialog1;
 	private: System::Windows::Forms::SaveFileDialog^ saveFileDialog1;
+private: System::Windows::Forms::Label^ label3;
+private: System::Windows::Forms::Label^ label2;
+private: System::Windows::Forms::Label^ label1;
+private: System::Windows::Forms::RadioButton^ radioButton2;
+private: System::Windows::Forms::RadioButton^ radioButton1;
+private: System::Windows::Forms::Button^ buttonChooseTexture;
 
 
 
@@ -205,5 +213,7 @@ private: System::Void openFileDialog1_FileOk(System::Object^ sender, System::Com
 }
 private: System::Void saveFileDialog1_FileOk(System::Object^ sender, System::ComponentModel::CancelEventArgs^ e) {
 }
+private: System::Void radioButton1_CheckedChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonChooseTexture_Click(System::Object^ sender, System::EventArgs^ e);
 };
 }

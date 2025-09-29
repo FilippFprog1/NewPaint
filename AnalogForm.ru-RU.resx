@@ -118,15 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CreateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 22</value>
-  </data>
-  <data name="CreateAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 22</value>
-  </data>
-  <data name="ToolBoxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 22</value>
-  </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1106, 24</value>
   </data>
@@ -147,6 +138,16 @@
   </data>
   <data name="FigureLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>272, 25</value>
+  </data>
+  <data name="groupBoxSettingsTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 100</value>
+  </data>
+  <data name="groupBoxSettingsTexture.Text" xml:space="preserve">
+    <value>Настройка текстуры</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBoxSettingsTexture.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="ProjectWidthEnd.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 26</value>
