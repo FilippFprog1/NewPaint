@@ -1,0 +1,6 @@
+C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.vcxproj.AssemblyReference.cache
+C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.AnalogForm.resources
+C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.AnalogForm.asa-TZ.resources
+C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.AnalogForm.ru-RU.resources
+C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.vcxproj.GenerateResource.cache
+C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.exe

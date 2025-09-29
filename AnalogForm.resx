@@ -221,8 +221,8 @@
   <data name="buttonColor.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="buttonCreateNewProject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 36</value>
+  <data name="&gt;&gt;numericUpDownWidthCircle.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="buttonActivateTexture.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -244,6 +244,9 @@
   </data>
   <data name="numericUpDownHightCircle.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
+  </data>
+  <data name="buttonCreateNewProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
   </data>
   <data name="ProjectHeightEnd.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 36</value>
@@ -994,9 +997,6 @@
   </data>
   <data name="ParametrsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 29</value>
-  </data>
-  <data name="&gt;&gt;numericUpDownWidthCircle.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;ToolBox.Parent" xml:space="preserve">
     <value>$this</value>

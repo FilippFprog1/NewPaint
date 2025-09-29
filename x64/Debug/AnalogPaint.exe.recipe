@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\AnalogPaint.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls>
+    <SatelliteDll>
+      <FullPath>C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\asa-TZ\AnalogPaint.resources.dll</FullPath>
+    </SatelliteDll>
+    <SatelliteDll>
+      <FullPath>C:\Users\filfo\source\repos\NewPaint\NewPaint\x64\Debug\ru-RU\AnalogPaint.resources.dll</FullPath>
+    </SatelliteDll>
+  </SatelliteDlls>
+  <NonRecipeFileRefs />
+</Project>

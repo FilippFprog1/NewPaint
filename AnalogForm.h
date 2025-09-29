@@ -7,7 +7,9 @@ namespace AnalogPaint {
 	using namespace System::Collections;
 	using namespace System::Windows::Forms;
     using namespace System::Data;
+	using namespace System::Collections::Generic;
 	using namespace System::Drawing;
+
 
 	/// <summary>
 	/// Сводка для AnalogForm
@@ -15,13 +17,7 @@ namespace AnalogPaint {
 	public ref class AnalogForm : public System::Windows::Forms::Form
 	{
 	public:
-		AnalogForm(void)
-		{
-			InitializeComponent();
-			//
-			//TODO: добавьте код конструктора
-			//
-		}
+		AnalogForm(void);
 
 	protected:
 		/// <summary>
@@ -138,84 +134,76 @@ namespace AnalogPaint {
 		/// </summary>
 		void InitializeComponent(void);
 #pragma endregion
+	private:
+		Graphics^ canvas; //полотно
+		List <Point>^ points;
+		Pen^ pen; //перо
+		bool draw;
+		Bitmap^ background;
+		Bitmap^ background_;
+		Color color;
+		Bitmap ^ texture;
+		float size;
+		bool clearAll;
+		String^ filename;
+		int statePen;
+		/*
+		* statePen = 1 - линия
+		* 2 - квадрат
+		* 3 - круг
+		* 4 - текстура
+		*/
 
-private: System::Void ParametrsLabel_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void ParametrsLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: void DrawBackground();
+private: System::Void buttonClearCanvas_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void CreateToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void CreateAsToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void ToolBoxToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void ActivityToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void AboutToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void ExitToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void FigureLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonColor_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonApplySize_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownSize_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonActivateLine_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonActivateSquare_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonActivateCircle_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonActivateTexture_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void groupBoxSettingsSquare_Enter(System::Object^ sender, System::EventArgs^ e);
+private: System::Void groupBoxSettingsCircle_Enter(System::Object^ sender, System::EventArgs^ e);
+private: System::Void groupBoxТекстуры_Enter(System::Object^ sender, System::EventArgs^ e);
+private: System::Void SquareWidthLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void SquareHightLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void CircleWidthLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void CircleHightLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void TextureWidthLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void TextureHeightLabel_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownWidthSquare_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownHightSquare_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonApplySquare_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownWidthCircle_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownHightCircle_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonApplyCircle_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownWidthTexture_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownHeightTexture_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonApplyTexture_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void groupBoxCreateProject_Enter(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonCreateNewProject_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void buttonOpenProject_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownProjectWidth_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void numericUpDownProjectHight_ValueChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void MainPictureBox_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void MainPictureBox_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e);
+private: System::Void MainPictureBox_SizeChanged(System::Object^ sender, System::EventArgs^ e);
+private: System::Void MainPictureBox_MouseDown(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e);
+private: System::Void MainPictureBox_MouseMove(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e);
+private: System::Void MainPictureBox_MouseUp(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e);
+private: System::Void AnalogForm_Load(System::Object^ sender, System::EventArgs^ e);
+private: System::Void openFileDialog1_FileOk(System::Object^ sender, System::ComponentModel::CancelEventArgs^ e) {
 }
-private: System::Void buttonClearCanvas_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void CreateToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void CreateAsToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void ToolBoxToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void ActivityToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void AboutToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void ExitToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void FigureLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonColor_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonApplySize_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownSize_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonActivateLine_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonActivateSquare_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonActivateCircle_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonActivateTexture_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void groupBoxSettingsSquare_Enter(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void groupBoxSettingsCircle_Enter(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void groupBoxТекстуры_Enter(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void SquareWidthLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void SquareHightLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void CircleWidthLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void CircleHightLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void TextureWidthLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void TextureHeightLabel_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownWidthSquare_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownHightSquare_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonApplySquare_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownWidthCircle_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownHightCircle_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonApplyCircle_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownWidthTexture_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownHeightTexture_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonApplyTexture_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void groupBoxCreateProject_Enter(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonCreateNewProject_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void buttonOpenProject_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownProjectWidth_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void numericUpDownProjectHight_ValueChanged(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void saveFileDialog1_FileOk(System::Object^ sender, System::ComponentModel::CancelEventArgs^ e) {
 }
 };
 }
